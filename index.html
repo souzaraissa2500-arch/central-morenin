@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Central Morenin</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=DM+Sans:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=DM+Sans:wght@500;700&family=Archivo+Black&family=Rubik:wght@700;800&display=swap" rel="stylesheet">
 <script>
 try{var _t=localStorage.getItem('cm-theme');document.documentElement.setAttribute('data-theme',_t==='dark'?'dark':'light');}catch(e){document.documentElement.setAttribute('data-theme','light');}
 </script>
@@ -26,21 +26,21 @@ html,body{background:var(--bg);color:var(--fg);font-family:"DM Sans",system-ui,s
 .ic{flex:none;display:block;width:46px;height:46px;padding:11px;border-radius:50%;background:var(--ic-bg);color:var(--pr)}
 .ic svg{display:block;width:100%;height:100%}
 .lb{flex:1;min-width:0}
-.lb b{display:block;font-family:Unbounded,"Arial Black",system-ui,sans-serif;font-weight:600;font-size:15px;letter-spacing:-.01em}
-.lb small{display:block;margin-top:3px;font-size:13px;font-weight:500;color:var(--mut)}
+.lb b{display:block;font-family:"Archivo Black","Arial Black",system-ui,sans-serif;font-weight:900;font-size:16px;letter-spacing:.01em;-webkit-text-stroke:.4px currentColor}
+.lb small{display:block;margin-top:3px;font-family:Rubik,system-ui,sans-serif;font-size:13px;font-weight:700;color:var(--mut)}
 .ar{flex:none;width:22px;height:22px;opacity:.6;color:var(--pr)}
 .go{padding:18px;background:linear-gradient(90deg,#8b5cf6,#6d28d9);color:#fff;border-color:transparent;animation:glow 2.4s ease-in-out infinite}
 .go .ic{background:rgba(255,255,255,.2);color:#fff}
 .go .lb small{color:rgba(255,255,255,.8)}
 .go .ar{color:#fff;opacity:.9}
-.go .lb b{font-size:17px}
+.go .lb b{font-size:18px}
 @keyframes glow{0%,100%{box-shadow:0 8px 26px rgba(124,58,237,.35)}50%{box-shadow:0 8px 44px rgba(124,58,237,.65)}}
 .badge{color:var(--pr)}
 .tg{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));right:16px;z-index:5;width:44px;height:44px;border-radius:50%;border:2px solid var(--btn-bd);background:var(--tg-bg);color:var(--pr);display:grid;place-items:center;cursor:pointer;-webkit-tap-highlight-color:transparent;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .tg span{display:block;width:22px;height:22px}
 .tg svg{display:block;width:100%;height:100%}
 .splash{position:fixed;inset:0;z-index:15;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:24px;text-align:center;-webkit-tap-highlight-color:transparent}
-.enter{font-family:Unbounded,"Arial Black",system-ui,sans-serif;font-weight:600;font-size:15px;letter-spacing:-.01em;color:#fff;padding:17px 30px;border:0;border-radius:999px;background:linear-gradient(90deg,#8b5cf6,#6d28d9);cursor:pointer;animation:glow 2.4s ease-in-out infinite}
+.enter{font-family:"Archivo Black","Arial Black",system-ui,sans-serif;font-weight:900;font-size:16px;letter-spacing:.01em;color:#fff;padding:17px 30px;border:0;border-radius:999px;background:linear-gradient(90deg,#8b5cf6,#6d28d9);cursor:pointer;animation:glow 2.4s ease-in-out infinite}
 .mu{right:auto;left:16px}
 .tg .ring{position:absolute;inset:-2px;width:auto;height:auto;border-radius:50%;border:2px solid var(--pr);pointer-events:none}
 .wipe{position:fixed;inset:0;z-index:20;pointer-events:none}
@@ -78,7 +78,7 @@ var LINKS=[
 {n:'INSTAGRAM MORENIN',s:'@moreninff_01',u:'https://www.instagram.com/moreninff_01',i:IC.insta},
 {n:'TIKTOK MORENIN',s:'@moreninff_01',u:'https://www.tiktok.com/@moreninff_01',i:IC.tiktok},
 {n:'ROBLOX MORENIN',s:'Perfil no Roblox',u:'https://www.roblox.com/search/users?keyword=moreninff_01',i:IC.roblox},
-{n:'DISCORD PAREDÃO',s:'Entrar no servidor',u:'https://discord.com/invite/MUzhzJqtjE',i:IC.discord}
+{n:'DISCORD PAREDÃO',s:'Entrar no servidor',u:'https://discord.gg/fGh6MqHqed',i:IC.discord}
 ];
 
 var BOX={hidden:{},show:{transition:{staggerChildren:.11,delayChildren:.8}}};
